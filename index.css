@@ -1,0 +1,44 @@
+body{
+    background-image: url('nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+h1{
+    text-align: center;
+    color: hotpink;
+}
+
+#div{
+    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid black;
+    padding: 50px;
+    position: inherit;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: lightgreen;
+    opacity: 0.8;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-style: italic;    
+    width: 90px;
+}
+
+#pswd,#mail,#mob{
+    width: 250px;
+    height: 25px;
+}
+#message{
+     display: block;
+     padding: 10px;
+}
+#btn:hover{
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}
