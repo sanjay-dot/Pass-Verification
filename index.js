@@ -43,7 +43,7 @@ function verifyPassword(){
         return false;
     }
 
-    if(mobile > 10){
+    if(mobile < 10){
         document.getElementById('message2').innerHTML = "Enter valid number";
         return false;
     }
