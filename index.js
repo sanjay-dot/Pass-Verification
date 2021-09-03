@@ -44,7 +44,8 @@ function verifyPassword(){
     }
 
     if(mobile > 10){
-        document.getElementById('message2').innerHTML = "Enter valid number"
+        document.getElementById('message2').innerHTML = "Enter valid number";
+        return false;
     }
 
     else{
